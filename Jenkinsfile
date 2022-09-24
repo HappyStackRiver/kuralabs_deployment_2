@@ -31,5 +31,7 @@ pipeline {
      stage('Deploy){
            steps {
              sh 'eb deploy url-shortner-deployment-2-main-dev'
+    }
+   }
   }
  }
